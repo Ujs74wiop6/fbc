@@ -1,0 +1,25 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('https://i0.wp.com/multarte.com.br/wp-content/uploads/2018/12/fundo-amarelo40.jpg?fit=2880%2C1800&ssl=1');
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+  }
+  .contato a {
+    color: rgb(8, 7, 7);
+    font-size: 2em;
+  }
+  .contato .icons {
+    text-align: center;
+  }
+  .icons{
+    font-size: 20px;
+  }
+  .p{
+    font-size: 18px;
+  }

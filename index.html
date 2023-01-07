@@ -53,9 +53,14 @@
         <p>
             I'm 
             <script>
-            var dt = new Date();
-            document.write(dt.getFullYear() - 2003);
+            var dob = new Date("09/09/2003");
+            var month_diff = Date.now() - dob.getTime()
+            var age_dt = new Date(month_diff);
+            var year = age_dt.getUTCFullYear();
+            var age = Math.abs(year - 1970);
+            document.write(age);
             </script> 
+            
             years old, I live in the interior of SP in Brazil, I'm an encouraging person at the beginning of my career. 
             I am in the study and training phase. I practice some technologies with good frequency, despite the technical 
             training I see myself as a professional who has a lot to learn and evolve in general. I really like programming, 
